@@ -1,0 +1,33 @@
+{
+  "name": "blaze/purize",
+  "description": "Data Sanitizer",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Adam Dawood",
+      "email": "ad.adamdavid72@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "laravel/framework": "~5"
+  },
+  "require-dev": {
+  
+  },
+  "suggest": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Blaze\\Purize\\" : "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Blaze\\Purize\\Laravel\\PurizeServiceProvider"
+      ]
+    }
+  }
+}
